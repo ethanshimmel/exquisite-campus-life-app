@@ -32,3 +32,131 @@
       display: flex;
 
   }
+
+  #upcoming,
+  #dining,
+  #verse {
+      width: 100%;
+      background-color: #D3D3D3;
+      border: 1px solid white;
+      color: black;
+      padding: 8px;
+      margin: 2px 0;
+  }
+
+  .row {
+      display: flex;
+      align-items: stretch;
+  }
+
+  .col-md-6 {
+      display: flex;
+      flex-direction: column;
+  }
+
+  #upcoming,
+  #dining {
+      margin-bottom: 5px;
+  }
+
+  #verse {
+      flex: 1;
+      height: 100%;
+  }
+
+  header,
+  footer {
+      padding: 5px;
+  }
+
+
+  .page-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+  }
+
+  #mainhead {
+      background-color: #D3D3D3;
+      border: 1px solid white;
+      padding: 10px;
+      margin: 5px 0;
+      text-align: center;
+  }
+
+  #mainhead h1 {
+      margin: 0;
+      font-size: 24px;
+  }
+
+  #mainhead h3 {
+      margin: 5px 0;
+      font-size: 16px;
+      font-weight: normal;
+  }
+
+  .motto {
+      margin: 0;
+      font-style: italic;
+      font-size: 14px;
+  }
+
+  /* EVENTS PAGE */
+
+  /* Section spacing */
+  #events {
+      padding: 10px;
+  }
+
+  /* Grid layout (2 columns like your image) */
+  .events-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin-bottom: 20px;
+  }
+
+  /* Event cards */
+  .event-card {
+      background: #D3D3D3;
+      padding: 5px;
+  }
+
+  /* Images */
+  .event-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+
+  /* Text under image */
+  .event-info {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 2px;
+      font-size: 14px;
+  }
+
+  /* Footer section */
+  .events-footer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      border-top: 1px solid #ddd;
+      padding-top: 15px;
+      
+  }
+
+  /* Footer boxes */
+  .footer-box {
+      font-size: 14px;
+      background: #D3D3D3;
+  }
+
+  .footer-box h4 {
+      margin-bottom: 5px;
+      background: #D3D3D3;
+  }
+
+  /* DINING PAGE */
+  
