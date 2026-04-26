@@ -1,5 +1,7 @@
 
 
+
+// Events Page
 let thisWeekEvents = [{ name: "FINE ARTS EVENT: Jazz Band Concert", date: "4/28" }, { name: "Baseball Game", date: "4/29" }, { name: "Graduation", date: "5/2" }]
 
 let eventButton = document.getElementById("event-button");
@@ -28,6 +30,4 @@ eventButton.addEventListener("click", function () {
     }
 
 });
-
-
 
