@@ -1,8 +1,6 @@
   /* Setup for Page */
 
-  html {
-    
-  }
+  html {}
 
   body {
       margin: 0;
@@ -43,7 +41,7 @@
   }
 
 
- /* Box Layout for Each Item  */
+  /* Box Layout for Each Item  */
   #upcoming,
   #dining,
   #verse {
@@ -53,6 +51,7 @@
       color: black;
       padding: 8px;
       margin: 2px 0;
+      min-width: 30vw;
   }
 
   /* Section rows */
@@ -179,7 +178,7 @@
       text-align: left;
   }
 
-   /* Box Layout for Each Option  */
+  /* Box Layout for Each Option  */
   #breakfast,
   #lunch,
   #dinner {

@@ -9,7 +9,7 @@
 </head>
 </head>
 
-<body>
+<body onload="getVerse()">
     <header>
         <a class="button" href="index.html">Home</a>
         <a class="button" href="events.html">Events</a>
@@ -47,11 +47,9 @@
                 <div class="col-md-6">
 
                     <section id="verse" class="mb-4">
-                        <h5 class="subheader">Today's Verse</h5>
-                        <p>
-                            For God so loved the world that he gave his one and only Son, that whoever believes in him
-                            shall
-                            not perish but have eternal life - John 3:16 NIV
+                        <h5 class="subheader">Random Verse</h5>
+                        <p id="daily-verse">
+                            
                         </p>
                     </section>
 
@@ -62,7 +60,7 @@
 
     </main>
 
-    <script src="./javascript/homescript.js"></script>
+    <script src="./javascript/homescript.js" defer></script>
 </body>
 <footer>
     <a class="button" href="index.html">Home</a>
